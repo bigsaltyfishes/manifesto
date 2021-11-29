@@ -1074,5 +1074,6 @@
 
   <!-- Miku UI -->
   <include name="snippets/caf.xml" />
+  <include name="snippets/remove.xml" />
 
 </manifest>
