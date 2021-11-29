@@ -1071,4 +1071,8 @@
 
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Miku UI -->
+  <include name="snippets/caf.xml" />
+
 </manifest>
