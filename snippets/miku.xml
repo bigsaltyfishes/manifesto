@@ -10,8 +10,8 @@
 	   fetch="https://github.com/Miku-UI" />
 
   <!-- Build -->
-  <project path="bionic" name="platform_bionic" remote="aosp" />
-  <project path="build/make" name="platform_build" remote="aosp">
+  <project path="bionic" name="platform/bionic" remote="aosp" />
+  <project path="build/make" name="platform/build" remote="aosp">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -20,7 +20,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" remote="aosp" >
+  <project path="build/soong" name="platform/build/soong" remote="aosp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
