@@ -1074,6 +1074,7 @@
 
   <!-- Miku UI -->
   <include name="snippets/caf.xml" />
+  <include name="snippets/lineage.xml" />
   <include name="snippets/remove.xml" />
 
 </manifest>
