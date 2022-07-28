@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="kscope"
+          fetch="https://github.com/Project-Kaleidoscope"
+          revision="sunflowerleaf" />
+
+  <remote name="kscope-gitlab"
+          fetch="https://gitlab.com/Project-Kaleidoscope"
+          revision="sunflowerleaf" />
+
+  <remote name="chaldeaprjkt"
+          fetch="https://github.com/chaldeaprjkt"
+          revision="12.1"/>
+
+  <!-- Face Unlock -->
+  <project path="external/faceunlock" name="android_external_faceunlock" remote="kscope-gitlab" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="kscope" />
+
+  <!-- Game Space -->
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="chaldeaprjkt" />
+
+</manifest>
